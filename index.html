@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="encabezado-fijo">
+        <div class="barra-superior">
+            <h3>ENVIO GRATIS POR COMPRAS SUPERIORES A $250.000</h3>
+        </div>
+        <header class="encabezado">
+            <div class="logo">
+                <div></div>
+                <div id="logo-cafe">
+                    <img src="https://www.cafequindio.com.co/cdn/shop/files/Logo-cafe-quindio-azul_1.png?v=1721659770&width=350"
+                        alt="logo">
+                </div>
+                <div id="iconos">
+                    <a href="#"><img src="./img/user.svg" alt=""></a>
+                    <a href="#"><img src="./img/search.svg" alt=""></a>
+                    <a href="#"><img src="./img/shopping-bag.svg" alt=""></a>
+                </div>
+            </div>
+            <nav class="menu">
+                <a href="#CAFE">CAFÉ</a>
+                <a href="#CAPSULA">CÁPSULA</a>
+                <a href="#REGALOS">REGALOS</a>
+                <a href="#PRODUCTOS">PRODUCTOS DE CAFÉ </a>
+                <a href="#SALE">SALE</a>
+                <a href="#NOSOTROS">NOSOTROS</a>
+                <a href="#TIENDAS">TIENDAS</a>
+                <a href="#BLOG">BLOGS</a>
+            </nav>
+        </header>
+    </div>
+    <main>
+        <img class="fondo" src="./img/Editable-Navidad-2026-Banner.webp" alt="">
+        <section id="primero">
+            <p>LO MÁS VENDIDO</p>
+            <div id="botones2">
+                <BUtton>CAFÉ</BUtton>
+                <BUtton>REGALOS</BUtton>
+            </div>
+            <div class="imagenes">
+                <div class="imagen">
+                    <img src="https://www.cafequindio.com.co/cdn/shop/files/guadual-frente-grano.webp?v=1788979276&width=500"
+                        alt="cafe guadal">
+                        <a href="">CAFE GUADAL</a>
+                        <p>$56.800</p>
+                </div>
+                <div class="imagen">
+                    <img src="https://www.cafequindio.com.co/cdn/shop/files/mirador-frente-grano.webp?v=1788978568&width=500"
+                        alt="cafe mirador">
+                        <a href="">CAFE MIRADOR</a>
+                        <p>$56.800</p>
+                </div>
+                <div class="imagen">
+                    <img src="https://www.cafequindio.com.co/cdn/shop/files/Cafe_Encanto_Molido_250.png?v=1759505047&width=500"
+                        alt="cafe disney encanto">
+                        <a href="">CAFÉ DISNEY ENCANTO</a>
+                        <p>$56.000</p>
+                </div>
+                <div class="imagen">
+                    <img src="https://www.cafequindio.com.co/cdn/shop/files/Tipica-Naranja-Frente-Grano.webp?v=1788987316&width=500"
+                        alt="Cafe tipica naranja">
+                        <a href="">CAFÉ TIPÍCA NARANJA</a>
+                        <P>$79.800</P>
+                </div>
+                <div class="imagen">
+                    <img src="https://www.cafequindio.com.co/cdn/shop/files/cocora-frente-grano.webp?v=1788978329&width=500"
+                        alt="cafe cocora">
+                        <a href="">CAFÉ COCORA</a>
+                        <P>$56.800</P>
+                </div>
+                <div class="imagen">
+                    <img src="	https://www.cafequindio.com.co/cdn/shop/files/cafe_geisha_frente.webp?v=1767205898&width=500"
+                        alt="cafe geisha">
+                        <a href="#">CAFÉ GEISHA</a>
+                        <p>$130.800</p>
+                </div>
+            </div>
+            <button>VER TODO</button>
+        </section>
+        <section id="segundo">
+            <h2>SALE</h2>
+            <div class="left">
+                <img id="foto" src="https://www.cafequindio.com.co/cdn/shop/files/Cafe_quindio_5set_cafe_regalo.webp?v=1786727450&width=800" alt="">
+            </div>
+            <div class="der">
+                <a href="">5 SETS BARRANQUERO</a>
+                <p id="descuento">AHORRA 15%</p>
+                <h4>$309.400</h4>
+                <p>Café Gourmet, Café Génova, nuestras originales Cafecitas y arequipe con café reunidos en un set lleno de origen y sabor colombiano. Un regalo que lleva distintas expresiones de Café Quindío en cada detalle.</p>
+                <div class="cantidad">
+                    <button onclick="cambiar(-1)"> - </button>
+                    <span id="numero">1</span>
+                    <button onclick="cambiar(1)" > + </button>
+                </div>
+                <button class="boton-cesta">AÑADIR A LA CESTA</button>
+            </div>
+        </section>
+        <section id="tercero">
+            <p>REGÍSTRATE EN NUESTRO NEWLETTER Y RECIBE </p>
+            <h2>UN CUPÓN CON 10% OFF EN TU PRIMERA COMPRA ONLINE*</h2>
+            <form>
+                <input type="email" placeholder="Correo electrónico" aria-label="Correo electrónico">
+                <button type="submit">SUSCRIBIRSE</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>SIGUENOS</p>
+            <h2>@CAFEQUINDIO.COM</h2>
+        </div>
+        <div>
+            <img src="https://www.cafequindio.com.co/cdn/shop/files/cq_instagram.png?v=1727706488&width=43" alt="instagram">
+            <img src="https://www.cafequindio.com.co/cdn/shop/files/cq_facebook.png?v=1727712196&width=43" alt="facebook">
+            <img src="https://www.cafequindio.com.co/cdn/shop/files/cq_linkedin.png?v=1727712226&width=43" alt="linkedln">
+            <img src="https://www.cafequindio.com.co/cdn/shop/files/cq_tiktok.png?v=1727712226&width=43" alt="">
+        </div>
+        
+
+    </footer>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

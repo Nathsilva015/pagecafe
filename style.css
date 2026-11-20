@@ -1,0 +1,315 @@
+body{
+    margin: 0;
+}
+.encabezado-fijo {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-cafe {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+#logo-cafe img {
+    width: 175px;
+    height: auto;
+    display: block;
+}
+
+.barra-superior {
+    text-align: center;
+    padding: 2px;
+    font-size: 12px;
+    background: #69CCCA;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    padding: 10px 20px 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    padding: 20px;
+
+}
+
+.fondo{
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 220px);
+    object-fit: cover;
+  
+}
+
+#primero{
+    display: flex;
+    flex-direction: column;
+    background: #EFEFEF;
+}
+#primero button {
+    align-self: center;
+    margin: 30px 0;
+    padding: 17px 30px;
+    border: none;
+    border-radius: 30px;
+    background: #bfd747;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+#primero p{
+    text-align: center;
+}
+#botones2{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+#botones2 button {
+    padding: 0 0 6px;
+    border: none;
+    background: none;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 6px;
+    cursor: pointer;
+}
+
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen {
+    flex-basis: 400px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.imagen img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#segundo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #EFEFEF;
+}
+
+#segundo h2 {
+    flex-basis: 100%;
+    margin: 40px ;
+    text-align: center;
+    font-size: 35px;
+}
+
+#segundo .left {
+    display: flex;
+    justify-content: center;
+}
+
+#segundo #foto {
+    display: block;
+    width: min(75%, 600px);
+    height: auto;
+}
+
+#segundo .der{
+    width: 300px;
+
+}
+
+#descuento{
+    border: 1px solid red;
+    color: white;
+    background: red;
+    width: fit-content;
+    padding: 4px;
+}
+
+#segundo .der p:last-child {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.cantidad {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+.cantidad button {
+  background: white;
+  border: none;
+  font-size: 20px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.cantidad span {
+  padding: 0 15px;
+  font-size: 18px;
+}
+
+.boton-cesta {
+  width: 300px;
+  height: 52px;
+  margin-top: 15px;
+  border: none;
+  background: #69ccca;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+#tercero {
+  min-height: 330px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #69ccca;
+  color: white;
+  text-align: center;
+  padding: 45px 20px;
+  font-family: Arial, sans-serif;
+}
+
+#tercero p {
+  margin: 0 0 24px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+#tercero h2 {
+  margin: 0 0 34px;
+  font-size: 20px;
+  line-height: 1.35;
+  letter-spacing: 7px;
+  font-weight: 700;
+}
+
+#tercero form {
+  display: flex;
+  gap: 18px;
+}
+
+#tercero input {
+  box-sizing: border-box;
+  width: 280px;
+  height: 58px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  background: transparent;
+  color: white;
+  padding: 0 18px;
+  font-size: 17px;
+  outline: none;
+  
+}
+
+#tercero input::placeholder {
+  color: white;
+}
+
+#tercero button {
+  width: 260px;
+  height: 58px;
+  border: none;
+  background: white;
+  color: #69ccca;
+  font-size: 17px;
+  letter-spacing: 6px;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  #tercero {
+    min-height: auto;
+  }
+
+  #tercero h2 {
+    font-size: 25px;
+    letter-spacing: 4px;
+  }
+
+  #tercero form {
+    width: 100%;
+    max-width: 420px;
+    flex-direction: column;
+  }
+
+  #tercero input,
+  #tercero button {
+    width: 100%;
+  }
+}
+
+footer {
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #EFEFEF;
+}
+
+footer p {
+  margin: 0 0 25px;
+  color: #111;
+  font-size: 14px;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
+footer h2 {
+  margin: 0;
+  color: #666;
+  font-size: 30px;
+  letter-spacing: 8px;
+}
+
+footer div:last-child {
+  display: flex;
+  gap: 40px;
+}
+
+footer div:last-child img {
+  width: 52px;
+  height: 52px;
+}
+
